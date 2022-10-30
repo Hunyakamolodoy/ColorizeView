@@ -50,19 +50,19 @@ class ViewController: UIViewController {
     
 // MARK: - Private Methods
     private func setupRedSlider() {
-        redSlider.value = 0.44
+        redSlider.value = 1
         redSlider.minimumValue = 0
         redSlider.maximumValue = 1
     }
     
     private func setupGreenSlider() {
-        greenSlider.value = 0.44
+        greenSlider.value = 1
         greenSlider.minimumValue = 0
         greenSlider.maximumValue = 1
     }
     
     private func setupBlueSlider() {
-        blueSlider.value = 0.44
+        blueSlider.value = 1
         blueSlider.minimumValue = 0
         blueSlider.maximumValue = 1
     }
